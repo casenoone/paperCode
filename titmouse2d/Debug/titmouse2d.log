@@ -17,10 +17,10 @@
   SimpleDiffuseSolver2.cpp
   SimpleLevelSetSolver2.cpp
   SimplePressureSolver2.cpp
-E:\zhangjian\paper_and_project\papercode\titmouse2d\src\SparseMatrix.hpp(237,20): warning C4018: “<”: 有符号/无符号不匹配
-E:\zhangjian\paper_and_project\papercode\titmouse2d\src\SparseMatrix.hpp(220): message : 在编译 类 模板 成员函数“void SparseMatrix<double>::build(void)”时
-E:\zhangjian\paper_and_project\papercode\titmouse2d\src\Eulerian\SimplePressureSolver2.cpp(132): message : 查看对正在编译的函数 模板 实例化“void SparseMatrix<double>::build(void)”的引用
-E:\zhangjian\paper_and_project\papercode\titmouse2d\src\Eulerian\SimplePressureSolver2.cpp(66): message : 查看对正在编译的 类 模板 实例化“SparseMatrix<double>”的引用
+E:\zhangjian\paper_and_project\papercode1\paperCode\titmouse2d\src\SparseMatrix.hpp(237,20): warning C4018: “<”: 有符号/无符号不匹配
+E:\zhangjian\paper_and_project\papercode1\paperCode\titmouse2d\src\SparseMatrix.hpp(220): message : 在编译 类 模板 成员函数“void SparseMatrix<double>::build(void)”时
+E:\zhangjian\paper_and_project\papercode1\paperCode\titmouse2d\src\Eulerian\SimplePressureSolver2.cpp(132): message : 查看对正在编译的函数 模板 实例化“void SparseMatrix<double>::build(void)”的引用
+E:\zhangjian\paper_and_project\papercode1\paperCode\titmouse2d\src\Eulerian\SimplePressureSolver2.cpp(66): message : 查看对正在编译的 类 模板 实例化“SparseMatrix<double>”的引用
   VertexCenteredScalarGrid2.cpp
   正在生成代码...
   正在编译...
@@ -37,10 +37,38 @@ E:\zhangjian\paper_and_project\papercode\titmouse2d\src\Eulerian\SimplePressureS
   FlipSolver2.cpp
   PicSolver2.cpp
   NeighborSearcher2.cpp
-E:\zhangjian\paper_and_project\papercode\titmouse2d\src\Lagrangian\NeighborSearcher2.cpp(130,13): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
-E:\zhangjian\paper_and_project\papercode\titmouse2d\src\Lagrangian\NeighborSearcher2.cpp(131,13): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
-E:\zhangjian\paper_and_project\papercode\titmouse2d\src\Lagrangian\NeighborSearcher2.cpp(223,13): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
-E:\zhangjian\paper_and_project\papercode\titmouse2d\src\Lagrangian\NeighborSearcher2.cpp(224,13): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+E:\zhangjian\paper_and_project\papercode1\paperCode\titmouse2d\src\Lagrangian\NeighborSearcher2.cpp(130,13): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+E:\zhangjian\paper_and_project\papercode1\paperCode\titmouse2d\src\Lagrangian\NeighborSearcher2.cpp(131,13): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+E:\zhangjian\paper_and_project\papercode1\paperCode\titmouse2d\src\Lagrangian\NeighborSearcher2.cpp(223,13): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+E:\zhangjian\paper_and_project\papercode1\paperCode\titmouse2d\src\Lagrangian\NeighborSearcher2.cpp(224,13): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
   ParticleSystemData2.cpp
   ParticleSystemSolver2.cpp
-E:\zhangjian\paper_and_project\papercode\titmouse2d\src\Lagrangian\ParticleSystemSolver2.cpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\zhangjian\paper_and_project\papercode1\paperCode\titmouse2d\src\Lagrangian\ParticleSystemSolver2.cpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  SphSystemData2.cpp
+  SphSystemSolver2.cpp
+  VortexParticleSystemData2.cpp
+  VortexParticleSystemSolver2.cpp
+  main.cpp
+  正在生成代码...
+  正在编译...
+  Matrix3x3.hpp
+  Pde.hpp
+  IISPHSolver2.cpp
+  LBMData2.h
+  LBMSolver2.cpp
+  MPMSolver2.cpp
+  PBFSolver2.cpp
+  ShallowWaveSolver2.cpp
+E:\zhangjian\paper_and_project\papercode1\paperCode\titmouse2d\src\OtherMethod\SWE\ShallowWaveSolver2.cpp(165,26): warning C4244: “参数”: 从“T”转换到“int”，可能丢失数据
+          with
+          [
+              T=double
+          ]
+E:\zhangjian\paper_and_project\papercode1\paperCode\titmouse2d\src\SparseMatrix.hpp(237,20): warning C4018: “<”: 有符号/无符号不匹配
+E:\zhangjian\paper_and_project\papercode1\paperCode\titmouse2d\src\SparseMatrix.hpp(220): message : 在编译 类 模板 成员函数“void SparseMatrix<double>::build(void)”时
+E:\zhangjian\paper_and_project\papercode1\paperCode\titmouse2d\src\OtherMethod\SWE\ShallowWaveSolver2.cpp(174): message : 查看对正在编译的函数 模板 实例化“void SparseMatrix<double>::build(void)”的引用
+E:\zhangjian\paper_and_project\papercode1\paperCode\titmouse2d\src\OtherMethod\SWE\ShallowWaveSolver2.cpp(116): message : 查看对正在编译的 类 模板 实例化“SparseMatrix<double>”的引用
+  Size2.cpp
+  正在生成代码...
+E:\zhangjian\paper_and_project\papercode1\paperCode\titmouse2d\src\OtherMethod\LBM\LBM_TurbulenceModel.h(42): warning C4715: “getLesNoneqTensorCoeff”: 不是所有的控件路径都返回值
+  titmouse2d.vcxproj -> E:\zhangjian\paper_and_project\papercode1\paperCode\Debug\titmouse2d.lib
