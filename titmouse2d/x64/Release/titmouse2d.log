@@ -1,0 +1,427 @@
+﻿  boundingbox2.cpp
+  Collider2.cpp
+  ColliderSet2.cpp
+  AdvectionSolver2.cpp
+  CellCenteredScalarGrid2.cpp
+  EulerianSmokeSolver2.cpp
+  FaceCenteredGrid2.cpp
+E:\zhangjian\paper_and_project\titmouse2d\titmouse2d\src\Eulerian\ArraySampler2.hpp(109,1): warning C4267: “初始化”: 从“int”转换到“int”，可能丢失数据
+E:\zhangjian\paper_and_project\titmouse2d\titmouse2d\src\Eulerian\ArraySampler2.hpp(103): message : 在编译 类 模板 成员函数“T LinearArraySampler2<T>::operator ()(const Array2<T> &,const Vector2<T> &)”时
+          with
+          [
+              T=double
+          ]
+E:\zhangjian\paper_and_project\titmouse2d\titmouse2d\src\Eulerian\FaceCenteredGrid2.cpp(143): message : 查看对正在编译的函数 模板 实例化“T LinearArraySampler2<T>::operator ()(const Array2<T> &,const Vector2<T> &)”的引用
+          with
+          [
+              T=double
+          ]
+E:\zhangjian\paper_and_project\titmouse2d\titmouse2d\src\Eulerian\FaceCenteredGrid2.h(94): message : 查看对正在编译的 类 模板 实例化“LinearArraySampler2<double>”的引用
+E:\zhangjian\paper_and_project\titmouse2d\titmouse2d\src\Eulerian\ArraySampler2.hpp(110,1): warning C4267: “初始化”: 从“int”转换到“int”，可能丢失数据
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\type_traits(1595,98): warning C4244: “参数”: 从“_Ty”转换到“double”，可能丢失数据
+          with
+          [
+              _Ty=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\functional(752): message : 查看对正在编译的函数 模板 实例化“Vector2D std::invoke<_Callable&,_Ty,_Ty>(FaceCenteredGrid2::vPosition::<lambda_ced66ca301ff19de3ac2319c919375de>&,_Ty1 &&,_Ty &&) noexcept(false)”的引用
+          with
+          [
+              _Callable=FaceCenteredGrid2::vPosition::<lambda_ced66ca301ff19de3ac2319c919375de>,
+              _Ty=int,
+              _Ty1=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\functional(919): message : 查看对正在编译的函数 模板 实例化“_Rx std::_Invoker_ret<_Rx,false>::_Call<_Callable&,_Ty,_Ty>(_Fx,_Ty &&,_Ty &&) noexcept(false)”的引用
+          with
+          [
+              _Rx=Vector2D,
+              _Callable=FaceCenteredGrid2::vPosition::<lambda_ced66ca301ff19de3ac2319c919375de>,
+              _Ty=int,
+              _Fx=FaceCenteredGrid2::vPosition::<lambda_ced66ca301ff19de3ac2319c919375de> &
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\functional(920): message : 查看对正在编译的函数 模板 实例化“_Rx std::_Invoker_ret<_Rx,false>::_Call<_Callable&,_Ty,_Ty>(_Fx,_Ty &&,_Ty &&) noexcept(false)”的引用
+          with
+          [
+              _Rx=Vector2D,
+              _Callable=FaceCenteredGrid2::vPosition::<lambda_ced66ca301ff19de3ac2319c919375de>,
+              _Ty=int,
+              _Fx=FaceCenteredGrid2::vPosition::<lambda_ced66ca301ff19de3ac2319c919375de> &
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\functional(919): message : 在编译 类 模板 成员函数“_Rx std::_Func_impl_no_alloc<FaceCenteredGrid2::vPosition::<lambda_ced66ca301ff19de3ac2319c919375de>,_Rx,int,int>::_Do_call(int &&,int &&)”时
+          with
+          [
+              _Rx=Vector2D
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\functional(813): message : 查看对正在编译的 类 模板 实例化“std::_Func_impl_no_alloc<FaceCenteredGrid2::vPosition::<lambda_ced66ca301ff19de3ac2319c919375de>,_Ret,int,int>”的引用
+          with
+          [
+              _Ret=Vector2D
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\functional(1010): message : 查看指向正在编译的变量模板“const bool _Is_large<std::_Func_impl_no_alloc<<lambda_ced66ca301ff19de3ac2319c919375de>,Vector2D,unsigned __int64,unsigned __int64> >”的引用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\functional(1143): message : 查看对正在编译的函数 模板 实例化“void std::_Func_class<_Ret,int,int>::_Reset<FaceCenteredGrid2::vPosition::<lambda_ced66ca301ff19de3ac2319c919375de>>(_Fx &&)”的引用
+          with
+          [
+              _Ret=Vector2D,
+              _Fx=FaceCenteredGrid2::vPosition::<lambda_ced66ca301ff19de3ac2319c919375de>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\functional(1143): message : 查看对正在编译的函数 模板 实例化“void std::_Func_class<_Ret,int,int>::_Reset<FaceCenteredGrid2::vPosition::<lambda_ced66ca301ff19de3ac2319c919375de>>(_Fx &&)”的引用
+          with
+          [
+              _Ret=Vector2D,
+              _Fx=FaceCenteredGrid2::vPosition::<lambda_ced66ca301ff19de3ac2319c919375de>
+          ]
+E:\zhangjian\paper_and_project\titmouse2d\titmouse2d\src\Eulerian\FaceCenteredGrid2.cpp(115): message : 查看对正在编译的函数 模板 实例化“std::function<Vector2D (int,int)>::function<FaceCenteredGrid2::vPosition::<lambda_ced66ca301ff19de3ac2319c919375de>,0>(_Fx)”的引用
+          with
+          [
+              _Fx=FaceCenteredGrid2::vPosition::<lambda_ced66ca301ff19de3ac2319c919375de>
+          ]
+E:\zhangjian\paper_and_project\titmouse2d\titmouse2d\src\Eulerian\FaceCenteredGrid2.cpp(113): message : 查看对正在编译的函数 模板 实例化“std::function<Vector2D (int,int)>::function<FaceCenteredGrid2::vPosition::<lambda_ced66ca301ff19de3ac2319c919375de>,0>(_Fx)”的引用
+          with
+          [
+              _Fx=FaceCenteredGrid2::vPosition::<lambda_ced66ca301ff19de3ac2319c919375de>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\type_traits(1595,67): warning C4244: “参数”: 从“_Ty1”转换到“double”，可能丢失数据
+          with
+          [
+              _Ty1=int
+          ]
+  fdm_utils.hpp
+  Field2.cpp
+  Grid2.cpp
+  GridFluidSolver2.cpp
+  GridSystemData2.cpp
+  LevelSetLiquidSolver2.cpp
+E:\zhangjian\paper_and_project\titmouse2d\titmouse2d\src\Eulerian\LevelSetLiquidSolver2.cpp(68,15): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+  MarchingCubes2.cpp
+E:\zhangjian\paper_and_project\titmouse2d\titmouse2d\src\Eulerian\MarchingCubes2.cpp(180,47): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+E:\zhangjian\paper_and_project\titmouse2d\titmouse2d\src\Eulerian\MarchingCubes2.cpp(181,16): warning C4244: “=”: 从“int”转换到“T”，可能丢失数据
+          with
+          [
+              T=double
+          ]
+E:\zhangjian\paper_and_project\titmouse2d\titmouse2d\src\Eulerian\MarchingCubes2.cpp(190,18): warning C4267: “初始化”: 从“int”转换到“int”，可能丢失数据
+  ScalarField2.cpp
+  ScalarGrid2.cpp
+E:\zhangjian\paper_and_project\titmouse2d\titmouse2d\src\Eulerian\ArraySampler2.hpp(109,1): warning C4267: “初始化”: 从“int”转换到“int”，可能丢失数据
+E:\zhangjian\paper_and_project\titmouse2d\titmouse2d\src\Eulerian\ArraySampler2.hpp(103): message : 在编译 类 模板 成员函数“T LinearArraySampler2<T>::operator ()(const Array2<T> &,const Vector2<T> &)”时
+          with
+          [
+              T=double
+          ]
+E:\zhangjian\paper_and_project\titmouse2d\titmouse2d\src\Eulerian\ScalarGrid2.cpp(23): message : 查看对正在编译的函数 模板 实例化“T LinearArraySampler2<T>::operator ()(const Array2<T> &,const Vector2<T> &)”的引用
+          with
+          [
+              T=double
+          ]
+E:\zhangjian\paper_and_project\titmouse2d\titmouse2d\src\Eulerian\ScalarGrid2.cpp(23): message : 查看对正在编译的 类 模板 实例化“LinearArraySampler2<double>”的引用
+E:\zhangjian\paper_and_project\titmouse2d\titmouse2d\src\Eulerian\ArraySampler2.hpp(110,1): warning C4267: “初始化”: 从“int”转换到“int”，可能丢失数据
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\type_traits(1595,98): warning C4244: “参数”: 从“_Ty”转换到“double”，可能丢失数据
+          with
+          [
+              _Ty=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\functional(752): message : 查看对正在编译的函数 模板 实例化“Vector2D std::invoke<_Callable&,_Ty,_Ty>(ScalarGrid2::dataPosition::<lambda_ab27a60fea1183cae21123120a5be04b>&,_Ty1 &&,_Ty &&) noexcept(false)”的引用
+          with
+          [
+              _Callable=ScalarGrid2::dataPosition::<lambda_ab27a60fea1183cae21123120a5be04b>,
+              _Ty=int,
+              _Ty1=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\functional(919): message : 查看对正在编译的函数 模板 实例化“_Rx std::_Invoker_ret<_Rx,false>::_Call<_Callable&,_Ty,_Ty>(_Fx,_Ty &&,_Ty &&) noexcept(false)”的引用
+          with
+          [
+              _Rx=Vector2D,
+              _Callable=ScalarGrid2::dataPosition::<lambda_ab27a60fea1183cae21123120a5be04b>,
+              _Ty=int,
+              _Fx=ScalarGrid2::dataPosition::<lambda_ab27a60fea1183cae21123120a5be04b> &
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\functional(920): message : 查看对正在编译的函数 模板 实例化“_Rx std::_Invoker_ret<_Rx,false>::_Call<_Callable&,_Ty,_Ty>(_Fx,_Ty &&,_Ty &&) noexcept(false)”的引用
+          with
+          [
+              _Rx=Vector2D,
+              _Callable=ScalarGrid2::dataPosition::<lambda_ab27a60fea1183cae21123120a5be04b>,
+              _Ty=int,
+              _Fx=ScalarGrid2::dataPosition::<lambda_ab27a60fea1183cae21123120a5be04b> &
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\functional(919): message : 在编译 类 模板 成员函数“_Rx std::_Func_impl_no_alloc<ScalarGrid2::dataPosition::<lambda_ab27a60fea1183cae21123120a5be04b>,_Rx,int,int>::_Do_call(int &&,int &&)”时
+          with
+          [
+              _Rx=Vector2D
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\functional(813): message : 查看对正在编译的 类 模板 实例化“std::_Func_impl_no_alloc<ScalarGrid2::dataPosition::<lambda_ab27a60fea1183cae21123120a5be04b>,_Ret,int,int>”的引用
+          with
+          [
+              _Ret=Vector2D
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\functional(1010): message : 查看指向正在编译的变量模板“const bool _Is_large<std::_Func_impl_no_alloc<<lambda_ab27a60fea1183cae21123120a5be04b>,Vector2D,unsigned __int64,unsigned __int64> >”的引用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\functional(1143): message : 查看对正在编译的函数 模板 实例化“void std::_Func_class<_Ret,int,int>::_Reset<ScalarGrid2::dataPosition::<lambda_ab27a60fea1183cae21123120a5be04b>>(_Fx &&)”的引用
+          with
+          [
+              _Ret=Vector2D,
+              _Fx=ScalarGrid2::dataPosition::<lambda_ab27a60fea1183cae21123120a5be04b>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\functional(1143): message : 查看对正在编译的函数 模板 实例化“void std::_Func_class<_Ret,int,int>::_Reset<ScalarGrid2::dataPosition::<lambda_ab27a60fea1183cae21123120a5be04b>>(_Fx &&)”的引用
+          with
+          [
+              _Ret=Vector2D,
+              _Fx=ScalarGrid2::dataPosition::<lambda_ab27a60fea1183cae21123120a5be04b>
+          ]
+E:\zhangjian\paper_and_project\titmouse2d\titmouse2d\src\Eulerian\ScalarGrid2.cpp(76): message : 查看对正在编译的函数 模板 实例化“std::function<Vector2D (int,int)>::function<ScalarGrid2::dataPosition::<lambda_ab27a60fea1183cae21123120a5be04b>,0>(_Fx)”的引用
+          with
+          [
+              _Fx=ScalarGrid2::dataPosition::<lambda_ab27a60fea1183cae21123120a5be04b>
+          ]
+E:\zhangjian\paper_and_project\titmouse2d\titmouse2d\src\Eulerian\ScalarGrid2.cpp(74): message : 查看对正在编译的函数 模板 实例化“std::function<Vector2D (int,int)>::function<ScalarGrid2::dataPosition::<lambda_ab27a60fea1183cae21123120a5be04b>,0>(_Fx)”的引用
+          with
+          [
+              _Fx=ScalarGrid2::dataPosition::<lambda_ab27a60fea1183cae21123120a5be04b>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\type_traits(1595,67): warning C4244: “参数”: 从“_Ty1”转换到“double”，可能丢失数据
+          with
+          [
+              _Ty1=int
+          ]
+  SimpleDiffuseSolver2.cpp
+  SimpleLevelSetSolver2.cpp
+  SimplePressureSolver2.cpp
+E:\zhangjian\paper_and_project\titmouse2d\titmouse2d\src\SparseMatrix.hpp(323,25): warning C4244: “return”: 从“_Ty”转换到“T”，可能丢失数据
+          with
+          [
+              _Ty=int
+          ]
+          and
+          [
+              T=double
+          ]
+E:\zhangjian\paper_and_project\titmouse2d\titmouse2d\src\SparseMatrix.hpp(320): message : 在编译 类 模板 成员函数“T SparseMatrix<T>::getRowElementNum(int) const”时
+          with
+          [
+              T=double
+          ]
+E:\zhangjian\paper_and_project\titmouse2d\titmouse2d\src\SparseMatrix.hpp(402): message : 查看对正在编译的函数 模板 实例化“T SparseMatrix<T>::getRowElementNum(int) const”的引用
+          with
+          [
+              T=double
+          ]
+E:\zhangjian\paper_and_project\titmouse2d\titmouse2d\src\SparseMatrix.hpp(191): message : 在编译 类 模板 成员函数“SparseMatrix<double> SparseMatrix<double>::operator *(const T &) const”时
+          with
+          [
+              T=double
+          ]
+E:\zhangjian\paper_and_project\titmouse2d\titmouse2d\src\SparseMatrix.hpp(198): message : 查看对正在编译的函数 模板 实例化“SparseMatrix<double> SparseMatrix<double>::operator *(const T &) const”的引用
+          with
+          [
+              T=double
+          ]
+E:\zhangjian\paper_and_project\titmouse2d\titmouse2d\src\SparseMatrix.hpp(161): message : 在编译 类 模板 成员函数“VectorN<double> SparseMatrix<double>::operator *(const VectorN<double> &) const”时
+E:\zhangjian\paper_and_project\titmouse2d\titmouse2d\src\LinearSystem\GaussSeidelSolver.hpp(21): message : 查看对正在编译的函数 模板 实例化“VectorN<double> SparseMatrix<double>::operator *(const VectorN<double> &) const”的引用
+E:\zhangjian\paper_and_project\titmouse2d\titmouse2d\src\SparseMatrix.hpp(80): message : 在编译 类 模板 成员函数“SparseMatrix<double>::SparseMatrix(const int &,const int &)”时
+E:\zhangjian\paper_and_project\titmouse2d\titmouse2d\src\Eulerian\SimplePressureSolver2.cpp(64): message : 查看对正在编译的函数 模板 实例化“SparseMatrix<double>::SparseMatrix(const int &,const int &)”的引用
+E:\zhangjian\paper_and_project\titmouse2d\titmouse2d\src\Eulerian\SimplePressureSolver2.cpp(64): message : 查看对正在编译的 类 模板 实例化“SparseMatrix<double>”的引用
+  VertexCenteredScalarGrid2.cpp
+  正在编译...
+  Box2.cpp
+  ExplicitSurface2.cpp
+  Heart2.cpp
+  ImplicitSurface2.cpp
+  Plane2.cpp
+  Ray2.cpp
+  Sphere2.cpp
+  Surface2.cpp
+  ApicSolver2.cpp
+E:\zhangjian\paper_and_project\titmouse2d\titmouse2d\src\Hybrid\ApicSolver2.cpp(31,56): warning C4267: “初始化”: 从“int”转换到“int”，可能丢失数据
+E:\zhangjian\paper_and_project\titmouse2d\titmouse2d\src\Hybrid\ApicSolver2.cpp(131,56): warning C4267: “初始化”: 从“int”转换到“int”，可能丢失数据
+E:\zhangjian\paper_and_project\titmouse2d\titmouse2d\src\Eulerian\ArraySampler2.hpp(143,1): warning C4267: “初始化”: 从“int”转换到“int”，可能丢失数据
+E:\zhangjian\paper_and_project\titmouse2d\titmouse2d\src\Eulerian\ArraySampler2.hpp(134): message : 在编译 类 模板 成员函数“void LinearArraySampler2<double>::getCoordinatesAndGradientWeights(const Vector2D &,std::array<Vector2I,4> *,std::array<Vector2D,4> *) const”时
+E:\zhangjian\paper_and_project\titmouse2d\titmouse2d\src\Hybrid\ApicSolver2.cpp(170): message : 查看对正在编译的函数 模板 实例化“void LinearArraySampler2<double>::getCoordinatesAndGradientWeights(const Vector2D &,std::array<Vector2I,4> *,std::array<Vector2D,4> *) const”的引用
+E:\zhangjian\paper_and_project\titmouse2d\titmouse2d\src\Eulerian\FaceCenteredGrid2.h(94): message : 查看对正在编译的 类 模板 实例化“LinearArraySampler2<double>”的引用
+E:\zhangjian\paper_and_project\titmouse2d\titmouse2d\src\Eulerian\ArraySampler2.hpp(144,1): warning C4267: “初始化”: 从“int”转换到“int”，可能丢失数据
+E:\zhangjian\paper_and_project\titmouse2d\titmouse2d\src\Eulerian\ArraySampler2.hpp(191,1): warning C4267: “初始化”: 从“int”转换到“int”，可能丢失数据
+E:\zhangjian\paper_and_project\titmouse2d\titmouse2d\src\Eulerian\ArraySampler2.hpp(177): message : 在编译 类 模板 成员函数“void LinearArraySampler2<double>::getCoordinatesAndWeights(const Vector2D &,std::array<Vector2I,4> *,std::array<double,4> *)”时
+E:\zhangjian\paper_and_project\titmouse2d\titmouse2d\src\Hybrid\ApicSolver2.cpp(82): message : 查看对正在编译的函数 模板 实例化“void LinearArraySampler2<double>::getCoordinatesAndWeights(const Vector2D &,std::array<Vector2I,4> *,std::array<double,4> *)”的引用
+E:\zhangjian\paper_and_project\titmouse2d\titmouse2d\src\Eulerian\ArraySampler2.hpp(192,1): warning C4267: “初始化”: 从“int”转换到“int”，可能丢失数据
+  FlipSolver2.cpp
+E:\zhangjian\paper_and_project\titmouse2d\titmouse2d\src\Eulerian\ArraySampler2.hpp(109,1): warning C4267: “初始化”: 从“int”转换到“int”，可能丢失数据
+E:\zhangjian\paper_and_project\titmouse2d\titmouse2d\src\Eulerian\ArraySampler2.hpp(103): message : 在编译 类 模板 成员函数“T LinearArraySampler2<T>::operator ()(const Array2<T> &,const Vector2<T> &)”时
+          with
+          [
+              T=double
+          ]
+E:\zhangjian\paper_and_project\titmouse2d\titmouse2d\src\Hybrid\FlipSolver2.cpp(104): message : 查看对正在编译的函数 模板 实例化“T LinearArraySampler2<T>::operator ()(const Array2<T> &,const Vector2<T> &)”的引用
+          with
+          [
+              T=double
+          ]
+E:\zhangjian\paper_and_project\titmouse2d\titmouse2d\src\Eulerian\FaceCenteredGrid2.h(94): message : 查看对正在编译的 类 模板 实例化“LinearArraySampler2<double>”的引用
+E:\zhangjian\paper_and_project\titmouse2d\titmouse2d\src\Eulerian\ArraySampler2.hpp(110,1): warning C4267: “初始化”: 从“int”转换到“int”，可能丢失数据
+  PicSolver2.cpp
+E:\zhangjian\paper_and_project\titmouse2d\titmouse2d\src\Hybrid\PicSolver2.cpp(161,57): warning C4267: “初始化”: 从“int”转换到“int”，可能丢失数据
+E:\zhangjian\paper_and_project\titmouse2d\titmouse2d\src\Hybrid\PicSolver2.cpp(241,11): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+E:\zhangjian\paper_and_project\titmouse2d\titmouse2d\src\Hybrid\PicSolver2.cpp(242,11): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+E:\zhangjian\paper_and_project\titmouse2d\titmouse2d\src\Hybrid\PicSolver2.cpp(244,28): warning C4267: “=”: 从“int”转换到“int”，可能丢失数据
+E:\zhangjian\paper_and_project\titmouse2d\titmouse2d\src\Hybrid\PicSolver2.cpp(248,28): warning C4267: “=”: 从“int”转换到“int”，可能丢失数据
+E:\zhangjian\paper_and_project\titmouse2d\titmouse2d\src\Eulerian\ArraySampler2.hpp(191,1): warning C4267: “初始化”: 从“int”转换到“int”，可能丢失数据
+E:\zhangjian\paper_and_project\titmouse2d\titmouse2d\src\Eulerian\ArraySampler2.hpp(177): message : 在编译 类 模板 成员函数“void LinearArraySampler2<double>::getCoordinatesAndWeights(const Vector2D &,std::array<Vector2I,4> *,std::array<double,4> *)”时
+E:\zhangjian\paper_and_project\titmouse2d\titmouse2d\src\Hybrid\PicSolver2.cpp(96): message : 查看对正在编译的函数 模板 实例化“void LinearArraySampler2<double>::getCoordinatesAndWeights(const Vector2D &,std::array<Vector2I,4> *,std::array<double,4> *)”的引用
+E:\zhangjian\paper_and_project\titmouse2d\titmouse2d\src\Eulerian\FaceCenteredGrid2.h(94): message : 查看对正在编译的 类 模板 实例化“LinearArraySampler2<double>”的引用
+E:\zhangjian\paper_and_project\titmouse2d\titmouse2d\src\Eulerian\ArraySampler2.hpp(192,1): warning C4267: “初始化”: 从“int”转换到“int”，可能丢失数据
+  NeighborSearcher2.cpp
+E:\zhangjian\paper_and_project\titmouse2d\titmouse2d\src\Lagrangian\NeighborSearcher2.cpp(105,16): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+E:\zhangjian\paper_and_project\titmouse2d\titmouse2d\src\Lagrangian\NeighborSearcher2.cpp(106,16): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+  ParticleSystemData2.cpp
+  ParticleSystemSolver2.cpp
+E:\zhangjian\paper_and_project\titmouse2d\titmouse2d\src\Lagrangian\ParticleSystemSolver2.cpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  SphSystemData2.cpp
+  SphSystemSolver2.cpp
+  VortexParticleSystemData2.cpp
+  VortexParticleSystemSolver2.cpp
+  main.cpp
+  Pde.hpp
+  正在编译...
+  IISPHSolver2.cpp
+E:\zhangjian\paper_and_project\titmouse2d\titmouse2d\src\TempMovingCollider2.h(32,45): warning C4267: “初始化”: 从“int”转换到“int”，可能丢失数据
+  LBMData2.h
+  LBMSolver2.cpp
+  MPMSolver2.cpp
+E:\zhangjian\paper_and_project\titmouse2d\titmouse2d\src\OtherMethod\MPM\MPMSolver2.h(17,20): warning C4114: 多次使用同一类型限定符
+E:\zhangjian\paper_and_project\titmouse2d\titmouse2d\src\OtherMethod\MPM\MPMSolver2.h(45,26): warning C4114: 多次使用同一类型限定符
+E:\zhangjian\paper_and_project\titmouse2d\titmouse2d\src\OtherMethod\MPM\MPMSolver2.cpp(30,39): warning C4267: “初始化”: 从“int”转换到“int”，可能丢失数据
+E:\zhangjian\paper_and_project\titmouse2d\titmouse2d\src\OtherMethod\MPM\MPMSolver2.cpp(98,34): warning C4267: “初始化”: 从“int”转换到“int”，可能丢失数据
+E:\zhangjian\paper_and_project\titmouse2d\titmouse2d\src\OtherMethod\MPM\MPMSolver2.cpp(126,39): warning C4267: “初始化”: 从“int”转换到“int”，可能丢失数据
+E:\zhangjian\paper_and_project\titmouse2d\titmouse2d\src\Eulerian\ArraySampler2.hpp(191,1): warning C4267: “初始化”: 从“int”转换到“int”，可能丢失数据
+E:\zhangjian\paper_and_project\titmouse2d\titmouse2d\src\Eulerian\ArraySampler2.hpp(177): message : 在编译 类 模板 成员函数“void LinearArraySampler2<T>::getCoordinatesAndWeights(const Vector2D &,std::array<Vector2I,4> *,std::array<double,4> *)”时
+          with
+          [
+              T=Vector2D
+          ]
+E:\zhangjian\paper_and_project\titmouse2d\titmouse2d\src\OtherMethod\MPM\MPMSolver2.cpp(76): message : 查看对正在编译的函数 模板 实例化“void LinearArraySampler2<T>::getCoordinatesAndWeights(const Vector2D &,std::array<Vector2I,4> *,std::array<double,4> *)”的引用
+          with
+          [
+              T=Vector2D
+          ]
+E:\zhangjian\paper_and_project\titmouse2d\titmouse2d\src\OtherMethod\MPM\MPMSolver2.cpp(53): message : 查看对正在编译的 类 模板 实例化“LinearArraySampler2<T>”的引用
+          with
+          [
+              T=Vector2D
+          ]
+E:\zhangjian\paper_and_project\titmouse2d\titmouse2d\src\Eulerian\ArraySampler2.hpp(192,1): warning C4267: “初始化”: 从“int”转换到“int”，可能丢失数据
+E:\zhangjian\paper_and_project\titmouse2d\titmouse2d\src\Eulerian\ArraySampler2.hpp(109,1): warning C4267: “初始化”: 从“int”转换到“int”，可能丢失数据
+E:\zhangjian\paper_and_project\titmouse2d\titmouse2d\src\Eulerian\ArraySampler2.hpp(103): message : 在编译 类 模板 成员函数“T LinearArraySampler2<T>::operator ()(const Array2<T> &,const Vector2D &)”时
+          with
+          [
+              T=Vector2D
+          ]
+E:\zhangjian\paper_and_project\titmouse2d\titmouse2d\src\Eulerian\CollocatedVectorGrid2.hpp(150): message : 查看对正在编译的函数 模板 实例化“T LinearArraySampler2<T>::operator ()(const Array2<T> &,const Vector2D &)”的引用
+          with
+          [
+              T=Vector2D
+          ]
+E:\zhangjian\paper_and_project\titmouse2d\titmouse2d\src\Eulerian\CollocatedVectorGrid2.hpp(147): message : 在编译 类 模板 成员函数“T CollocatedVectorGrid2<T>::sample(const Vector2D &) const”时
+          with
+          [
+              T=Vector2D
+          ]
+E:\zhangjian\paper_and_project\titmouse2d\titmouse2d\src\OtherMethod\MPM\MPMSolver2.cpp(181): message : 查看对正在编译的函数 模板 实例化“T CollocatedVectorGrid2<T>::sample(const Vector2D &) const”的引用
+          with
+          [
+              T=Vector2D
+          ]
+E:\zhangjian\paper_and_project\titmouse2d\titmouse2d\src\Eulerian\CellCenteredVectorGrid2.hpp(8): message : 查看对正在编译的 类 模板 实例化“CollocatedVectorGrid2<T>”的引用
+          with
+          [
+              T=Vector2D
+          ]
+E:\zhangjian\paper_and_project\titmouse2d\titmouse2d\src\OtherMethod\MPM\MPMSolver2.cpp(31): message : 查看对正在编译的 类 模板 实例化“CellCenteredVectorGrid2<Vector2D>”的引用
+E:\zhangjian\paper_and_project\titmouse2d\titmouse2d\src\Eulerian\ArraySampler2.hpp(110,1): warning C4267: “初始化”: 从“int”转换到“int”，可能丢失数据
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\type_traits(1595,98): warning C4244: “参数”: 从“_Ty”转换到“double”，可能丢失数据
+          with
+          [
+              _Ty=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\functional(752): message : 查看对正在编译的函数 模板 实例化“Vector2D std::invoke<_Callable&,_Ty,_Ty>(CollocatedVectorGrid2<T>::dataPosition::<lambda_0baf131a759aeb6a9b559933d03de7d0>&,_Ty1 &&,_Ty &&) noexcept(false)”的引用
+          with
+          [
+              _Callable=CollocatedVectorGrid2<Vector2D>::dataPosition::<lambda_0baf131a759aeb6a9b559933d03de7d0>,
+              _Ty=int,
+              T=Vector2D,
+              _Ty1=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\functional(919): message : 查看对正在编译的函数 模板 实例化“_Rx std::_Invoker_ret<_Rx,false>::_Call<_Callable&,_Ty,_Ty>(_Fx,_Ty &&,_Ty &&) noexcept(false)”的引用
+          with
+          [
+              _Rx=Vector2D,
+              _Callable=CollocatedVectorGrid2<Vector2D>::dataPosition::<lambda_0baf131a759aeb6a9b559933d03de7d0>,
+              _Ty=int,
+              _Fx=CollocatedVectorGrid2<Vector2D>::dataPosition::<lambda_0baf131a759aeb6a9b559933d03de7d0> &
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\functional(920): message : 查看对正在编译的函数 模板 实例化“_Rx std::_Invoker_ret<_Rx,false>::_Call<_Callable&,_Ty,_Ty>(_Fx,_Ty &&,_Ty &&) noexcept(false)”的引用
+          with
+          [
+              _Rx=Vector2D,
+              _Callable=CollocatedVectorGrid2<Vector2D>::dataPosition::<lambda_0baf131a759aeb6a9b559933d03de7d0>,
+              _Ty=int,
+              _Fx=CollocatedVectorGrid2<Vector2D>::dataPosition::<lambda_0baf131a759aeb6a9b559933d03de7d0> &
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\functional(919): message : 在编译 类 模板 成员函数“_Rx std::_Func_impl_no_alloc<CollocatedVectorGrid2<T>::dataPosition::<lambda_0baf131a759aeb6a9b559933d03de7d0>,_Rx,int,int>::_Do_call(int &&,int &&)”时
+          with
+          [
+              _Rx=Vector2D,
+              T=Vector2D
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\functional(813): message : 查看对正在编译的 类 模板 实例化“std::_Func_impl_no_alloc<CollocatedVectorGrid2<T>::dataPosition::<lambda_0baf131a759aeb6a9b559933d03de7d0>,_Ret,int,int>”的引用
+          with
+          [
+              T=Vector2D,
+              _Ret=Vector2D
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\functional(1010): message : 查看指向正在编译的变量模板“const bool _Is_large<std::_Func_impl_no_alloc<<lambda_0baf131a759aeb6a9b559933d03de7d0>,Vector2D,unsigned __int64,unsigned __int64> >”的引用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\functional(1143): message : 查看对正在编译的函数 模板 实例化“void std::_Func_class<_Ret,int,int>::_Reset<CollocatedVectorGrid2<T>::dataPosition::<lambda_0baf131a759aeb6a9b559933d03de7d0>>(_Fx &&)”的引用
+          with
+          [
+              _Ret=Vector2D,
+              T=Vector2D,
+              _Fx=CollocatedVectorGrid2<Vector2D>::dataPosition::<lambda_0baf131a759aeb6a9b559933d03de7d0>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\functional(1143): message : 查看对正在编译的函数 模板 实例化“void std::_Func_class<_Ret,int,int>::_Reset<CollocatedVectorGrid2<T>::dataPosition::<lambda_0baf131a759aeb6a9b559933d03de7d0>>(_Fx &&)”的引用
+          with
+          [
+              _Ret=Vector2D,
+              T=Vector2D,
+              _Fx=CollocatedVectorGrid2<Vector2D>::dataPosition::<lambda_0baf131a759aeb6a9b559933d03de7d0>
+          ]
+E:\zhangjian\paper_and_project\titmouse2d\titmouse2d\src\Eulerian\CollocatedVectorGrid2.hpp(138): message : 查看对正在编译的函数 模板 实例化“std::function<Vector2D (int,int)>::function<CollocatedVectorGrid2<T>::dataPosition::<lambda_0baf131a759aeb6a9b559933d03de7d0>,0>(_Fx)”的引用
+          with
+          [
+              T=Vector2D,
+              _Fx=CollocatedVectorGrid2<Vector2D>::dataPosition::<lambda_0baf131a759aeb6a9b559933d03de7d0>
+          ]
+E:\zhangjian\paper_and_project\titmouse2d\titmouse2d\src\Eulerian\CollocatedVectorGrid2.hpp(136): message : 查看对正在编译的函数 模板 实例化“std::function<Vector2D (int,int)>::function<CollocatedVectorGrid2<T>::dataPosition::<lambda_0baf131a759aeb6a9b559933d03de7d0>,0>(_Fx)”的引用
+          with
+          [
+              T=Vector2D,
+              _Fx=CollocatedVectorGrid2<Vector2D>::dataPosition::<lambda_0baf131a759aeb6a9b559933d03de7d0>
+          ]
+E:\zhangjian\paper_and_project\titmouse2d\titmouse2d\src\Eulerian\CollocatedVectorGrid2.hpp(134): message : 在编译 类 模板 成员函数“std::function<Vector2D (int,int)> CollocatedVectorGrid2<T>::dataPosition(void) const”时
+          with
+          [
+              T=Vector2D
+          ]
+E:\zhangjian\paper_and_project\titmouse2d\titmouse2d\src\OtherMethod\MPM\MPMSolver2.cpp(32): message : 查看对正在编译的函数 模板 实例化“std::function<Vector2D (int,int)> CollocatedVectorGrid2<T>::dataPosition(void) const”的引用
+          with
+          [
+              T=Vector2D
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\type_traits(1595,67): warning C4244: “参数”: 从“_Ty1”转换到“double”，可能丢失数据
+          with
+          [
+              _Ty1=int
+          ]
+  PBFSolver2.cpp
+E:\zhangjian\paper_and_project\titmouse2d\titmouse2d\src\TempMovingCollider2.h(32,45): warning C4267: “初始化”: 从“int”转换到“int”，可能丢失数据
+E:\zhangjian\paper_and_project\titmouse2d\titmouse2d\src\OtherMethod\PBF\PBFSolver2.cpp(125,40): warning C4267: “初始化”: 从“int”转换到“int”，可能丢失数据
+E:\zhangjian\paper_and_project\titmouse2d\titmouse2d\src\OtherMethod\PBF\PBFSolver2.cpp(160,56): warning C4267: “初始化”: 从“int”转换到“int”，可能丢失数据
+  Size2.cpp
+  正在生成代码
+  Previous IPDB not found, fall back to full compilation.
+  All 1826 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  titmouse2d.vcxproj -> E:\zhangjian\paper_and_project\titmouse2d\x64\Release\titmouse2d.exe

@@ -1,0 +1,46 @@
+﻿  boundingbox2.cpp
+  Collider2.cpp
+  ColliderSet2.cpp
+  AdvectionSolver2.cpp
+  CellCenteredScalarGrid2.cpp
+  EulerianSmokeSolver2.cpp
+  FaceCenteredGrid2.cpp
+  fdm_utils.hpp
+  Field2.cpp
+  Grid2.cpp
+  GridFluidSolver2.cpp
+  GridSystemData2.cpp
+  LevelSetLiquidSolver2.cpp
+  MarchingCubes2.cpp
+  ScalarField2.cpp
+  ScalarGrid2.cpp
+  SimpleDiffuseSolver2.cpp
+  SimpleLevelSetSolver2.cpp
+  SimplePressureSolver2.cpp
+E:\zhangjian\paper_and_project\papercode\titmouse2d\src\SparseMatrix.hpp(237,20): warning C4018: “<”: 有符号/无符号不匹配
+E:\zhangjian\paper_and_project\papercode\titmouse2d\src\SparseMatrix.hpp(220): message : 在编译 类 模板 成员函数“void SparseMatrix<double>::build(void)”时
+E:\zhangjian\paper_and_project\papercode\titmouse2d\src\Eulerian\SimplePressureSolver2.cpp(132): message : 查看对正在编译的函数 模板 实例化“void SparseMatrix<double>::build(void)”的引用
+E:\zhangjian\paper_and_project\papercode\titmouse2d\src\Eulerian\SimplePressureSolver2.cpp(66): message : 查看对正在编译的 类 模板 实例化“SparseMatrix<double>”的引用
+  VertexCenteredScalarGrid2.cpp
+  正在生成代码...
+  正在编译...
+  Box2.cpp
+  ExplicitSurface2.cpp
+  Heart2.cpp
+  ImplicitSurface2.cpp
+  Plane2.cpp
+  Ray2.cpp
+  RegularPolygon.cpp
+  Sphere2.cpp
+  Surface2.cpp
+  ApicSolver2.cpp
+  FlipSolver2.cpp
+  PicSolver2.cpp
+  NeighborSearcher2.cpp
+E:\zhangjian\paper_and_project\papercode\titmouse2d\src\Lagrangian\NeighborSearcher2.cpp(130,13): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+E:\zhangjian\paper_and_project\papercode\titmouse2d\src\Lagrangian\NeighborSearcher2.cpp(131,13): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+E:\zhangjian\paper_and_project\papercode\titmouse2d\src\Lagrangian\NeighborSearcher2.cpp(223,13): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+E:\zhangjian\paper_and_project\papercode\titmouse2d\src\Lagrangian\NeighborSearcher2.cpp(224,13): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+  ParticleSystemData2.cpp
+  ParticleSystemSolver2.cpp
+E:\zhangjian\paper_and_project\papercode\titmouse2d\src\Lagrangian\ParticleSystemSolver2.cpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
